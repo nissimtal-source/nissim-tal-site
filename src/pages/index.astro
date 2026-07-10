@@ -1,0 +1,31 @@
+---
+import Layout from "../components/Layout.astro";
+import Gallery from "../components/Gallery.astro";
+import { site, about, projects } from "../data/content";
+---
+<Layout site={site} projects={projects} lang="en" aboutLabel="About" projectsLabel="Projects" switchHref="/he" switchLabel="עברית">
+  <div id="top" class="hero">
+    <img src={site.heroImage} alt={site.name} />
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>{site.name}</h1>
+        <p>{site.tagline}</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
+      <img src={about.photo} alt={`${site.name} portrait`} />
+      <div class="bio">
+        {about.bio.map((p) => <p>{p}</p>)}
+        <p style="margin-top:20px;">
+          Email: <a href={`mailto:${site.email}`} style="color:var(--accent);">{site.email}</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  {projects.map((project) => <Gallery project={project} />)}
+</Layout>

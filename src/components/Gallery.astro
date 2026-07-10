@@ -1,0 +1,30 @@
+---
+import type { ProjectSection } from "../data/content";
+export interface Props {
+  project: ProjectSection;
+}
+const { project } = Astro.props;
+---
+<section id={project.id}>
+  <h2 class="section-title">
+    {project.title}
+    {project.badge && <span class="badge">{project.badge}</span>}
+  </h2>
+  {project.meta && <div class="section-meta">{project.meta}</div>}
+  {project.statement && (
+    <div class="statement">
+      {project.statement.map((p) => <p set:html={p} />)}
+    </div>
+  )}
+  <div class="gallery">
+    {project.works.map((w) => (
+      <figure>
+        <img src={w.image} alt={w.alt ?? w.title} loading="lazy" />
+        <figcaption>
+          <span class="title">{w.title}</span>
+          {w.details}
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+</section>

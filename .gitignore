@@ -1,0 +1,13 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# editor/OS
+.DS_Store
+Thumbs.db
+
+# local scripts (Windows dev-server workaround, not needed elsewhere)
+run-dev.cmd

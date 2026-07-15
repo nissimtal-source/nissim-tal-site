@@ -42,9 +42,9 @@ export const site: Site = {
 export const about: About = {
   photo: "/images/about/portrait.jpeg",
   bio: [
-    "Born in Jerusalem, Nissim Tal holds a degree in Economics and International Relations from the Hebrew University. He also earned a Master's degree in Education from Columbia University in New York. Tal studied art at the Bezalel Academy of Arts and Design in Jerusalem between 1979–1983 (non-degree program). Additionally, he held various positions in the Budget Department of the Ministry of Finance in Jerusalem.",
-    "Throughout his career, Tal has been involved in art and the management of cultural and art institutions. For 25 years, he served as the director of the Haifa Museums.",
-    "In the past five years, Tal has worked as a strategic consultant specializing in the establishment and management of museums, while also continuing to create and exhibit his own art.",
+    "Born in Jerusalem, I hold a B.A. in Economics and International Relations from the Hebrew University, and an M.A. in Education from Columbia University, New York. I completed my art studies at the Bezalel Academy in Jerusalem (1979–1983). I began my professional career in various roles within the Budgets Department of the Ministry of Finance in Jerusalem.",
+    "Throughout the years, I have integrated my artistic practice with management roles in cultural and art institutions in Israel. Among other positions, I served as a department director at the Israel Museum in Jerusalem, Deputy Director of the Museum of the Jewish Diaspora (ANU) in Tel Aviv, CEO of the Artists' Colony in Mitzpe Ramon, and for 25 years, I served as the director of the six Haifa Museums.",
+    "Since 2019, I have worked as a strategic consultant for the establishment, renewal, and management of museums. Concurrently, I devote most of my time to an extensive artistic practice spanning painting, photography, and video. My works have been presented in comprehensive solo exhibitions, including at the Artists' House in Tel Aviv and the Düsseldorf Stadtmuseum in Germany, which acquired one of my pieces for its permanent collection.",
   ],
 };
 

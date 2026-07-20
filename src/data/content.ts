@@ -48,17 +48,33 @@ export const about: About = {
   ],
 };
 
-export const soloExhibition: ProjectSection = {
-  id: "solo-exhibitions",
-  title: "Passersby, Dancers, and Actors",
-  meta: "Solo Exhibition, Stadtmuseum Düsseldorf (Düsseldorf City Museum) · Curator: Dr. Susanne Anna, Director of Stadtmuseum Düsseldorf",
-  statement: [
-    "This exhibition attempts to explore the transient nature of human interaction within the urban landscape, focusing on the city of Düsseldorf. The works capture casual passersby as they converge in public spaces, theater halls, and open-air performances, transforming the \"accidental everyday moment\" into a subject of contemplation.",
-    "Whether documenting a fleeting group of commuters at the train station or an audience participating in an outdoor event, the paintings and photographs present these individuals as what Jean-Paul Sartre regarded as duplications of sorts of the individual, allowing each to exist as a separate entity and all of them as a collective group. The individuals are presented randomly and monotonously, lacking distinct uniqueness and appearing similar, a choice that renders the ordinary everyday into something compelling and attractive.",
-    "The exhibition also delves into the dialogue between the audience, actors, and dancers, documenting the shared energy and reactions between them. Developed largely during my artist residency with the Düsseldorf Municipality in Germany, this body of work serves as a visual diary of time, place, and the anonymous crowds that define city life.",
-  ],
-  works: [],
-};
+export const soloExhibitions: ProjectSection[] = [
+  {
+    id: "solo-exhibition-dusseldorf",
+    title: "Passersby, Dancers, and Actors",
+    meta: "Solo Exhibition, Stadtmuseum Düsseldorf (Düsseldorf City Museum) · Curator: Dr. Susanne Anna, Director of Stadtmuseum Düsseldorf",
+    statement: [
+      "This exhibition attempts to explore the transient nature of human interaction within the urban landscape, focusing on the city of Düsseldorf. The works capture casual passersby as they converge in public spaces, theater halls, and open-air performances, transforming the \"accidental everyday moment\" into a subject of contemplation.",
+      "Whether documenting a fleeting group of commuters at the train station or an audience participating in an outdoor event, the paintings and photographs present these individuals as what Jean-Paul Sartre regarded as duplications of sorts of the individual, allowing each to exist as a separate entity and all of them as a collective group. The individuals are presented randomly and monotonously, lacking distinct uniqueness and appearing similar, a choice that renders the ordinary everyday into something compelling and attractive.",
+      "The exhibition also delves into the dialogue between the audience, actors, and dancers, documenting the shared energy and reactions between them. Developed largely during my artist residency with the Düsseldorf Municipality in Germany, this body of work serves as a visual diary of time, place, and the anonymous crowds that define city life.",
+    ],
+    works: [],
+  },
+  {
+    id: "solo-exhibition-artists-house",
+    title: "Passersby",
+    meta: "Solo Exhibition, Artists' House Tel Aviv · Curator: Arie Berkowitz",
+    statement: [
+      "The paintings in the exhibition show anonymous passersby, random instances, and social occurrences. The details are presented in a casual, monotonous way; they seem alike, unexceptional. Indeed, the ordinary, typical, mundane, single moment is sometimes fascinating and compelling. One painting, for example, represents a given moment at a train station – a random group of people that sooner or later will be replaced with another. There is no significant difference between the groups. In other paintings, people wait in a queue to enter a gallery or a Rolling Stones concert.",
+      "Maurice Blanchot wrote: \"The everyday is the movement through which the individual exists, apparently unconsciously, in human anonymity. In the everyday we are nameless, possess a particle of personal reality, almost faceless, just as we lack a social definition that would sustain or encompass us... The everyday is not found in our residences, nor in offices, churches, libraries, or museums. If it is found anywhere, it is in the street.\"",
+      "Surrounding the random group of people in the paintings are always everyday objects: billboards, video screens, and street signs. They are unrelated to the incidental individual passing by and change according to the situation, enhancing the randomness of everyday regular existence. Despite the anonymity that flattens and unifies the figures when seen from afar, from up close, the paintings reveal details that differentiate each figure; the relationships between figures become palpable: at times, they are couples or teammates. The close gaze exposes their attractive clothes and bodily gestures.",
+      "The painting seeks to capture the transient moment of anonymous passersby in the public space. At times, they gather into an accidental group around a shared interest, yet most of them are alienated from their surroundings and act according to an internal hierarchy determined by their place in the queue, their order of arrival, etc.",
+      "\"People differ from one another in age and status, and mostly do not speak with one another. They simply exist alongside each other in a multiplicity of solitudes,\" wrote Jean-Paul Sartre.",
+      "Unlike photographs, paintings have brushstrokes, and the colorful stains become figures or items to be beheld by the gaze of an attentive viewer. Broad, flowing brushstrokes in parts of the background give the paintings their free spirit.",
+    ],
+    works: [],
+  },
+];
 
 export const projects: ProjectSection[] = [
   {

@@ -50,8 +50,7 @@ export const soloExhibitions: ProjectSection[] = [
 export const projects: ProjectSection[] = [
   {
     id: "passersby-dancers-actors",
-    title: "עוברי אורח, רקדניות ושחקנים",
-    badge: "בקרוב",
+    title: "רקדניות ושחקנים",
     meta: "תערוכה: מוזיאון העיר דיסלדורף, גרמניה — 3 בפברואר 2026",
     statement: [
       "חלק זה בתערוכה מציג קהל מזדמן שהגיע לצפות במופע ריקוד או תיאטרון, בין אם באולם סגור ובין אם במרחב ציבורי פתוח.",

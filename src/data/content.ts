@@ -79,8 +79,7 @@ export const soloExhibitions: ProjectSection[] = [
 export const projects: ProjectSection[] = [
   {
     id: "passersby-dancers-actors",
-    title: "Passersby, Dancers and Actors",
-    badge: "Upcoming",
+    title: "Dancers and Actors",
     meta: "Exhibition: City Museum of Düsseldorf, Germany — 3 February 2026",
     statement: [
       "This section of the exhibition presents a casual audience that has come to watch a dance or theater event, whether in an enclosed hall or an open public space.",

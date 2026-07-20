@@ -87,12 +87,6 @@ export const projects: ProjectSection[] = [
       "In the paintings and photographs, the figures are shown in close-up in an attempt to capture the fleeting moment, the movement, and the unique postures and gestures of the dancers and actors. The observing audience participates in an interaction with the artists. In contrast to the constantly changing, dynamic performance.",
     ],
     works: [
-      {
-        title: "Waiting for the metro 1",
-        details: "Heinrich Heine station, Düsseldorf, Germany, 2023 — Oil on canvas, 190×64 cm",
-        image:
-          "https://static.wixstatic.com/media/6ac8cb_9aef37a615cf4bf68164fd6ce5aefc12~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_9aef37a615cf4bf68164fd6ce5aefc12~mv2.jpg",
-      },
       { title: "Backstage 1", details: "2025 — Oil on canvas", image: "/images/passersby-dancers-actors/backstage-1.jpeg" },
       { title: "Backstage 2", details: "2025 — Oil on canvas", image: "/images/passersby-dancers-actors/backstage-2.jpeg" },
       { title: "Backstage 3", details: "2025 — Oil on canvas", image: "/images/passersby-dancers-actors/backstage-3.jpeg" },

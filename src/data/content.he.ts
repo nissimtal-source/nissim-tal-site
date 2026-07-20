@@ -58,12 +58,6 @@ export const projects: ProjectSection[] = [
       "בציורים ובצילומים, הדמויות מוצגות בתקריב בניסיון ללכוד את הרגע החולף, את התנועה, ואת התנוחות והמחוות הייחודיות של הרקדנים והשחקנים. הקהל הצופה משתתף באינטראקציה עם האמנים, בניגוד למופע הדינמי המשתנה ללא הרף.",
     ],
     works: [
-      {
-        title: "מחכים למטרו 1",
-        details: "תחנת היינריך היינה, דיסלדורף גרמניה, 2023 — שמן על בד, 190×64 ס״מ",
-        image:
-          "https://static.wixstatic.com/media/6ac8cb_9aef37a615cf4bf68164fd6ce5aefc12~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_9aef37a615cf4bf68164fd6ce5aefc12~mv2.jpg",
-      },
       { title: "מאחורי הקלעים 1", details: "2025 — שמן על בד", image: "/images/passersby-dancers-actors/backstage-1.jpeg" },
       { title: "מאחורי הקלעים 2", details: "2025 — שמן על בד", image: "/images/passersby-dancers-actors/backstage-2.jpeg" },
       { title: "מאחורי הקלעים 3", details: "2025 — שמן על בד", image: "/images/passersby-dancers-actors/backstage-3.jpeg" },

@@ -48,6 +48,18 @@ export const about: About = {
   ],
 };
 
+export const soloExhibition: ProjectSection = {
+  id: "solo-exhibitions",
+  title: "Passersby, Dancers, and Actors",
+  meta: "Solo Exhibition, Stadtmuseum Düsseldorf (Düsseldorf City Museum) · Curator: Dr. Susanne Anna, Director of Stadtmuseum Düsseldorf",
+  statement: [
+    "This exhibition attempts to explore the transient nature of human interaction within the urban landscape, focusing on the city of Düsseldorf. The works capture casual passersby as they converge in public spaces, theater halls, and open-air performances, transforming the \"accidental everyday moment\" into a subject of contemplation.",
+    "Whether documenting a fleeting group of commuters at the train station or an audience participating in an outdoor event, the paintings and photographs present these individuals as what Jean-Paul Sartre regarded as duplications of sorts of the individual, allowing each to exist as a separate entity and all of them as a collective group. The individuals are presented randomly and monotonously, lacking distinct uniqueness and appearing similar, a choice that renders the ordinary everyday into something compelling and attractive.",
+    "The exhibition also delves into the dialogue between the audience, actors, and dancers, documenting the shared energy and reactions between them. Developed largely during my artist residency with the Düsseldorf Municipality in Germany, this body of work serves as a visual diary of time, place, and the anonymous crowds that define city life.",
+  ],
+  works: [],
+};
+
 export const projects: ProjectSection[] = [
   {
     id: "passersby-dancers-actors",

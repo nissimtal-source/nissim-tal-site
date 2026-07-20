@@ -1,9 +1,9 @@
 ---
 import Layout from "../components/Layout.astro";
 import Gallery from "../components/Gallery.astro";
-import { site, about, projects } from "../data/content";
+import { site, about, projects, soloExhibition } from "../data/content";
 ---
-<Layout site={site} projects={projects} lang="en" aboutLabel="About" projectsLabel="Projects" switchHref="/he" switchLabel="עברית">
+<Layout site={site} projects={projects} lang="en" aboutLabel="About" projectsLabel="Projects" soloExhibitionsLabel="Solo Exhibitions" switchHref="/he" switchLabel="עברית">
   <div id="top" class="hero">
     <img src={site.heroImage} alt={site.name} />
     <div class="hero-inner">
@@ -26,6 +26,8 @@ import { site, about, projects } from "../data/content";
       </div>
     </div>
   </section>
+
+  <Gallery project={soloExhibition} />
 
   {projects.map((project) => <Gallery project={project} />)}
 </Layout>

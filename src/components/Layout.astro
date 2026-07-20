@@ -7,6 +7,7 @@ export interface Props {
   lang?: "en" | "he";
   aboutLabel?: string;
   projectsLabel?: string;
+  soloExhibitionsLabel?: string;
   switchHref?: string;
   switchLabel?: string;
 }
@@ -17,6 +18,7 @@ const {
   lang = "en",
   aboutLabel = "About",
   projectsLabel = "Projects",
+  soloExhibitionsLabel = "Solo Exhibitions",
   switchHref = "/he",
   switchLabel = "עברית",
 } = Astro.props;
@@ -42,6 +44,7 @@ const dir = lang === "he" ? "rtl" : "ltr";
       <nav>
         <ul>
           <li><a href="#about">{aboutLabel}</a></li>
+          <li><a href="#solo-exhibitions">{soloExhibitionsLabel}</a></li>
           <li class="dropdown">
             <button class="dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">
               {projectsLabel} <span class="caret">▾</span>

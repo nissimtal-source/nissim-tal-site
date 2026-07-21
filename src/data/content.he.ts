@@ -5,7 +5,7 @@ import type { Site, About, ProjectSection } from "./content";
 
 export const site: Site = {
   name: "נסים טל",
-  tagline: "דיסלדורף גרמניה, 2022 — שמן על בד, 200×100 ס״מ",
+  tagline: "מחכים לרולינג סטונס — דיסלדורף גרמניה, 2022 — שמן על בד, 200×100 ס״מ",
   email: "nissimtal@gmail.com",
   heroImage:
     "https://static.wixstatic.com/media/6ac8cb_10ad041831b6418f948b5b6e8c48d8a9~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_10ad041831b6418f948b5b6e8c48d8a9~mv2.jpg",

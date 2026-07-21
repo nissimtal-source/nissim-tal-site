@@ -32,7 +32,7 @@ export interface About {
 
 export const site: Site = {
   name: "Nissim Tal",
-  tagline: "Düsseldorf, Germany, 2022 — Oil on canvas, 200×100 cm",
+  tagline: "Waiting for the Rolling Stones — Düsseldorf, Germany, 2022 — Oil on canvas, 200×100 cm",
   email: "nissimtal@gmail.com",
   heroImage:
     "https://static.wixstatic.com/media/6ac8cb_10ad041831b6418f948b5b6e8c48d8a9~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_10ad041831b6418f948b5b6e8c48d8a9~mv2.jpg",

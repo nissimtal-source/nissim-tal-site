@@ -14,6 +14,12 @@ import { site, about, projects, soloExhibitions } from "../data/content";
     </div>
   </div>
 
+  {projects.map((project) => <Gallery project={project} />)}
+
+  <div id="solo-exhibitions">
+    {soloExhibitions.map((exhibition) => <Gallery project={exhibition} />)}
+  </div>
+
   <section id="about">
     <h2 class="section-title">About and Contact Me</h2>
     <div class="about-grid">
@@ -26,10 +32,4 @@ import { site, about, projects, soloExhibitions } from "../data/content";
       </div>
     </div>
   </section>
-
-  <div id="solo-exhibitions">
-    {soloExhibitions.map((exhibition) => <Gallery project={exhibition} />)}
-  </div>
-
-  {projects.map((project) => <Gallery project={project} />)}
 </Layout>

@@ -3,7 +3,7 @@ import Layout from "../components/Layout.astro";
 import Gallery from "../components/Gallery.astro";
 import { site, about, projects, soloExhibitions } from "../data/content.he";
 ---
-<Layout site={site} projects={projects} lang="he" aboutLabel="אודות" projectsLabel="פרויקטים" soloExhibitionsLabel="תערוכות יחיד" switchHref="/" switchLabel="English">
+<Layout site={site} projects={projects} lang="he" aboutLabel="אודות וצור קשר" projectsLabel="מבחר סדרות" soloExhibitionsLabel="תערוכות יחיד" switchHref="/" switchLabel="English">
   <div id="top" class="hero">
     <img src={site.heroImage} alt={site.name} />
     <div class="hero-inner">
@@ -15,7 +15,7 @@ import { site, about, projects, soloExhibitions } from "../data/content.he";
   </div>
 
   <section id="about">
-    <h2 class="section-title">אודות</h2>
+    <h2 class="section-title">אודות וצור קשר</h2>
     <div class="about-grid">
       <img src={about.photo} alt={`${site.name} - תמונת פורטרט`} />
       <div class="bio">

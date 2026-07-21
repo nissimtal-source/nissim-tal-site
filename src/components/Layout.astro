@@ -121,8 +121,7 @@ const dir = lang === "he" ? "rtl" : "ltr";
     }
 
     function openLightbox(img: HTMLImageElement) {
-      const gallery = img.closest(".gallery");
-      galleryImages = gallery ? Array.from(gallery.querySelectorAll("img")) : [img];
+      galleryImages = Array.from(document.querySelectorAll(".gallery figure img"));
       const hasMultiple = galleryImages.length > 1;
       lbPrev.classList.toggle("hidden", !hasMultiple);
       lbNext.classList.toggle("hidden", !hasMultiple);

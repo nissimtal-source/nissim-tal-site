@@ -175,18 +175,6 @@ export const projects: ProjectSection[] = [
     ],
   },
   {
-    id: "the-actors",
-    title: "The Actors",
-    meta: "2024 · Haifa",
-    works: [
-      { title: "Actor 1", details: "Oil on canvas, 60×75 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_82c56e3a5f83456f8426cee8c381c251~mv2.jpg/v1/fit/w_1860,h_1047,q_90,enc_avif,quality_auto/6ac8cb_82c56e3a5f83456f8426cee8c381c251~mv2.jpg" },
-      { title: "Actor 2", details: "Oil on canvas, 60×75 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_864130f914ea4bc3b4e7b2f174a3011f~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_864130f914ea4bc3b4e7b2f174a3011f~mv2.jpg" },
-      { title: "Actor 3", details: "Oil on canvas, 60×75 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_c511014c76dc46e1b40ed2ffb3581b42~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_c511014c76dc46e1b40ed2ffb3581b42~mv2.jpg" },
-      { title: "Actor 4", details: "Oil on canvas, 60×75 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_4d5cf97d336e4b41b2812ec5c71333e2~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_4d5cf97d336e4b41b2812ec5c71333e2~mv2.jpg" },
-      { title: "Actors 5", details: "Oil on canvas, 60×75 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_6e18e36a9d194e55a2dfd738e0cd0a79~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_6e18e36a9d194e55a2dfd738e0cd0a79~mv2.jpg" },
-    ],
-  },
-  {
     id: "belly-dancer",
     title: "Belly Dancer",
     meta: "2025 · Tel Aviv",

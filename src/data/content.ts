@@ -79,7 +79,7 @@ export const projects: ProjectSection[] = [
   {
     id: "passersby",
     title: "Passersby",
-    meta: "Exhibition: Artist House Tel Aviv, 2023 · Curator: Arie Berkowitz",
+    meta: "From the exhibition: Artist House Tel Aviv, 2023 · Curator: Arie Berkowitz",
     statement: [
       "The works center on the perception of the social essence of the street, anonymous passersby, and random occurrences.",
       "The paintings present passersby, who, according to Jean-Paul Sartre, can be regarded as duplications of sorts of the individual, allowing each to exist as a separate entity and all of them as a group. The individuals are presented randomly and monotonously; they lack uniqueness and seem similar, which renders the ordinary everyday into something compelling and attractive.",

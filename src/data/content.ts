@@ -62,7 +62,7 @@ export const soloExhibitions: ProjectSection[] = [
   {
     id: "solo-exhibition-artists-house",
     title: "Passersby",
-    meta: "Solo Exhibition, Artists' House Tel Aviv · Curator: Arie Berkowitz",
+    meta: "Solo Exhibition, Artists' House Tel Aviv: November 9, 2023 · Curator: Arie Berkowitz",
     statement: [
       "The paintings in the exhibition show anonymous passersby, random instances, and social occurrences. The details are presented in a casual, monotonous way; they seem alike, unexceptional. Indeed, the ordinary, typical, mundane, single moment is sometimes fascinating and compelling. One painting, for example, represents a given moment at a train station – a random group of people that sooner or later will be replaced with another. There is no significant difference between the groups. In other paintings, people wait in a queue to enter a gallery or a Rolling Stones concert.",
       "Maurice Blanchot wrote: \"The everyday is the movement through which the individual exists, apparently unconsciously, in human anonymity. In the everyday we are nameless, possess a particle of personal reality, almost faceless, just as we lack a social definition that would sustain or encompass us... The everyday is not found in our residences, nor in offices, churches, libraries, or museums. If it is found anywhere, it is in the street.\"",

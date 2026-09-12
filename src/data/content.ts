@@ -79,7 +79,7 @@ export const projects: ProjectSection[] = [
   {
     id: "passersby",
     title: "Passersby",
-    meta: "From the exhibition: Artist House Tel Aviv, 2023 · Curator: Arie Berkowitz",
+    meta: "From the exhibition: Artist House Tel Aviv, Winter 2023 · Curator: Arie Berkowitz",
     statement: [
       "The works center on the perception of the social essence of the street, anonymous passersby, and random occurrences.",
       "The paintings present passersby, who, according to Jean-Paul Sartre, can be regarded as duplications of sorts of the individual, allowing each to exist as a separate entity and all of them as a group. The individuals are presented randomly and monotonously; they lack uniqueness and seem similar, which renders the ordinary everyday into something compelling and attractive.",
@@ -95,7 +95,7 @@ export const projects: ProjectSection[] = [
       { title: "Highline", details: "New York, 2023, Oil on canvas, 160×85 cm", image: "https://static.wixstatic.com/media/6ac8cb_f608057618464846b03e6bf3cffc4977~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_f608057618464846b03e6bf3cffc4977~mv2.jpg" },
       { title: "Visiting The MOMA", details: "New York, 2023, Oil on canvas, 95×148 cm", image: "https://static.wixstatic.com/media/6ac8cb_0c505c14acce48b3af7b26a0168515b3~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_0c505c14acce48b3af7b26a0168515b3~mv2.jpg" },
       { title: "Time Square 1", details: "New York, 2023, Oil on canvas, 120×156 cm", image: "https://static.wixstatic.com/media/6ac8cb_1aa5615598c345a58f6f46914edb847a~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_1aa5615598c345a58f6f46914edb847a~mv2.jpg" },
-      { title: "Time Square 2", details: "New York, 2023, Oil on canvas, 120×156 cm", image: "https://static.wixstatic.com/media/6ac8cb_e4092df0c2dd49baa1db4319bb566760~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_e4092df0c2dd49baa1db4319bb566760~mv2.jpg" },
+      { title: "Time Square 2", details: "New York, 2023, Oil on canvas, 146×112 cm", image: "https://static.wixstatic.com/media/6ac8cb_e4092df0c2dd49baa1db4319bb566760~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_e4092df0c2dd49baa1db4319bb566760~mv2.jpg" },
       { title: "Immersing in the river", details: "Kassel, Germany, 2023, Oil on canvas, 183×140 cm", image: "https://static.wixstatic.com/media/6ac8cb_a6072930269e43afa0077a19aabab7fa~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_a6072930269e43afa0077a19aabab7fa~mv2.jpg" },
       { title: "Expo", details: "Dubai, 2023, Oil on canvas, 230×90 cm", image: "https://static.wixstatic.com/media/6ac8cb_ea16a324706b4f8f854ec402fb950979~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_ea16a324706b4f8f854ec402fb950979~mv2.jpg" },
       { title: "Waiting for the metro 1", details: "Heinrich Heine station, Düsseldorf, Germany, 2023, Oil on canvas, 190×64 cm", image: "https://static.wixstatic.com/media/6ac8cb_9aef37a615cf4bf68164fd6ce5aefc12~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_9aef37a615cf4bf68164fd6ce5aefc12~mv2.jpg" },
@@ -150,14 +150,14 @@ export const projects: ProjectSection[] = [
   {
     id: "dancers",
     title: "Dancers",
-    meta: "2024 · Haifa",
+    meta: "2024 · Tel Aviv",
     works: [
-      { title: "Dancer 1", details: "Oil on canvas, 62×65 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_9cb644a070a84000a1c0786677bd7cae~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_9cb644a070a84000a1c0786677bd7cae~mv2.jpg" },
+      { title: "Dancer 1", details: "Oil on canvas, 65×62 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_9cb644a070a84000a1c0786677bd7cae~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_9cb644a070a84000a1c0786677bd7cae~mv2.jpg" },
       { title: "Dancer 2", details: "Oil on canvas, 100×60 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_c9597ee2a1ec4d05b37949cae2ff4c33~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_c9597ee2a1ec4d05b37949cae2ff4c33~mv2.jpg" },
       { title: "Dancer 3", details: "Oil on canvas, 61×65 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_af5918aece2e43738176f6bce9853261~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_af5918aece2e43738176f6bce9853261~mv2.jpg" },
       { title: "Dancer 4", details: "Oil on canvas, 50×66 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_78d9b224815b425cb8bde607c8aed695~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_78d9b224815b425cb8bde607c8aed695~mv2.jpg" },
-      { title: "Dancer and man with bottle", details: "Oil on canvas, 106×104 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_e327c81245cb41a9854629eb882484c6~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_e327c81245cb41a9854629eb882484c6~mv2.jpg" },
-      { title: "Audience", details: "Oil on canvas, 2024", image: "https://static.wixstatic.com/media/6ac8cb_bf366575516446269857343ee7eb3689~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_bf366575516446269857343ee7eb3689~mv2.jpg" },
+      { title: "Dancer and man with bottle", details: "Oil on canvas, 100×106 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_e327c81245cb41a9854629eb882484c6~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_e327c81245cb41a9854629eb882484c6~mv2.jpg" },
+      { title: "Audience 1", details: "Oil on canvas, 2024", image: "https://static.wixstatic.com/media/6ac8cb_bf366575516446269857343ee7eb3689~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_bf366575516446269857343ee7eb3689~mv2.jpg" },
     ],
   },
   {
@@ -179,13 +179,13 @@ export const projects: ProjectSection[] = [
     meta: "2025 · Tel Aviv",
     works: [
       { title: "Belly Dancer 1", details: "Oil on canvas, 50×70 cm, 2025", image: "/images/belly-dancer/belly-dancer-1.jpeg" },
-      { title: "Belly Dancer 2", details: "Oil on canvas, 35×50 cm, 2025", image: "/images/belly-dancer/belly-dancer-2.jpeg" },
-      { title: "Belly Dancer 3", details: "Oil on canvas, 43×53 cm, 2025", image: "/images/belly-dancer/belly-dancer-3.jpeg" },
+      { title: "Belly Dancer 2", details: "Oil on canvas, 50×35 cm, 2025", image: "/images/belly-dancer/belly-dancer-2.jpeg" },
+      { title: "Belly Dancer 3", details: "Oil on canvas, 42×53 cm, 2025", image: "/images/belly-dancer/belly-dancer-3.jpeg" },
       { title: "Belly Dancer 4", details: "Oil on canvas, 43×55 cm, 2025", image: "/images/belly-dancer/belly-dancer-4.jpeg" },
       { title: "Belly Dancer 5", details: "Oil on canvas, 43×51 cm, 2025", image: "/images/belly-dancer/belly-dancer-5.jpeg" },
       { title: "Belly Dancer 6", details: "Oil on canvas, 43×55 cm, 2025", image: "/images/belly-dancer/belly-dancer-6.jpeg" },
       { title: "Belly Dancer 7", details: "Oil on canvas, 60×80 cm, 2025", image: "/images/belly-dancer/belly-dancer-7.jpeg" },
-      { title: "Belly Dancer 8", details: "Oil on canvas, 33×54 cm, 2025", image: "/images/belly-dancer/belly-dancer-8.jpeg" },
+      { title: "Belly Dancer 8", details: "Oil on canvas, 33×55 cm, 2025", image: "/images/belly-dancer/belly-dancer-8.jpeg" },
       { title: "Belly Dancer 9", details: "Oil on canvas, 50×70 cm, 2025", image: "/images/belly-dancer/belly-dancer-9.jpeg" },
     ],
   },
@@ -194,8 +194,8 @@ export const projects: ProjectSection[] = [
     title: "Performance",
     meta: "2025 · Tel Aviv",
     works: [
-      { title: "Performance 1", details: "Oil on canvas, 75×54 cm, 2025", image: "https://static.wixstatic.com/media/6ac8cb_509048495090498aa6d893c2c123dac5~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_509048495090498aa6d893c2c123dac5~mv2.jpg" },
-      { title: "Performance 2", details: "Oil on canvas, 65×80 cm, 2025", image: "https://static.wixstatic.com/media/6ac8cb_4b66da34d876443e9d79002fa61e6480~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_4b66da34d876443e9d79002fa61e6480~mv2.jpg" },
+      { title: "Performance 1", details: "Oil on canvas, 73×54 cm, 2025", image: "https://static.wixstatic.com/media/6ac8cb_509048495090498aa6d893c2c123dac5~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_509048495090498aa6d893c2c123dac5~mv2.jpg" },
+      { title: "Performance 2", details: "Oil on canvas, 65×70 cm, 2025", image: "https://static.wixstatic.com/media/6ac8cb_4b66da34d876443e9d79002fa61e6480~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_4b66da34d876443e9d79002fa61e6480~mv2.jpg" },
     ],
   },
 ];

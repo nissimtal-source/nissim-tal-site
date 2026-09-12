@@ -4,6 +4,8 @@ export interface Props {
   site: Site;
   projects: ProjectSection[];
   title?: string;
+  description: string;
+  canonical: string;
   lang?: "en" | "he";
   aboutLabel?: string;
   projectsLabel?: string;
@@ -15,6 +17,8 @@ const {
   site,
   projects,
   title = site.name,
+  description,
+  canonical,
   lang = "en",
   aboutLabel = "About and Contact Me",
   projectsLabel = "Selected Series",
@@ -23,6 +27,7 @@ const {
   switchLabel = "עברית",
 } = Astro.props;
 const dir = lang === "he" ? "rtl" : "ltr";
+const ogLocale = lang === "he" ? "he_IL" : "en_US";
 ---
 <!DOCTYPE html>
 <html lang={lang} dir={dir}>
@@ -30,6 +35,23 @@ const dir = lang === "he" ? "rtl" : "ltr";
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <link rel="alternate" hreflang="en" href="https://nissimtal.com/" />
+  <link rel="alternate" hreflang="he" href="https://nissimtal.com/he/" />
+  <link rel="alternate" hreflang="x-default" href="https://nissimtal.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={site.name} />
+  <meta property="og:locale" content={ogLocale} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={site.heroImage} />
+  <meta property="og:url" content={canonical} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={site.heroImage} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link

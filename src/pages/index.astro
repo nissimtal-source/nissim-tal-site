@@ -3,7 +3,18 @@ import Layout from "../components/Layout.astro";
 import Gallery from "../components/Gallery.astro";
 import { site, about, projects, soloExhibitions } from "../data/content";
 ---
-<Layout site={site} projects={projects} lang="en" aboutLabel="About and Contact Me" projectsLabel="Selected Series" soloExhibitionsLabel="Solo Exhibitions" switchHref="/he" switchLabel="עברית">
+<Layout
+  site={site}
+  projects={projects}
+  lang="en"
+  description="Nissim Tal — Israeli painter and photographer. Paintings and photographs of anonymous passersby, dancers, and street performances. Solo exhibitions in Düsseldorf and Tel Aviv."
+  canonical="https://nissimtal.com/"
+  aboutLabel="About and Contact Me"
+  projectsLabel="Selected Series"
+  soloExhibitionsLabel="Solo Exhibitions"
+  switchHref="/he"
+  switchLabel="עברית"
+>
   <div id="top" class="hero">
     <img src={site.heroImage} alt={site.name} />
     <div class="hero-inner">

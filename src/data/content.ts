@@ -124,7 +124,6 @@ export const projects: ProjectSection[] = [
       { title: "Backstage 5", details: "2025, Oil on canvas", image: "/images/passersby-dancers-actors/backstage-5.jpeg" },
       { title: "Night Show", details: "2025, Oil on canvas", image: "/images/passersby-dancers-actors/night-show-1.jpeg" },
       { title: "Rabbit 1", details: "2025, Oil on canvas", image: "/images/passersby-dancers-actors/rabbit-1.jpeg" },
-      { title: "Rabbit 2", details: "2025, Oil on canvas", image: "/images/passersby-dancers-actors/rabbit-2.jpeg" },
       { title: "Actor 10", details: "Oil on canvas, 70×63 cm, 2025", image: "/images/passersby-dancers-actors/actor-10.jpeg" },
       { title: "Actor 12", details: "Oil on canvas, 75×70 cm, 2025", image: "/images/passersby-dancers-actors/actor-12.jpeg" },
       { title: "Actor 11", details: "Oil on canvas, 75×60 cm, 2025", image: "/images/passersby-dancers-actors/actor-11-a.jpeg" },

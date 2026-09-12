@@ -94,7 +94,6 @@ export const projects: ProjectSection[] = [
       { title: "מאחורי הקלעים 5", details: "2025, שמן על בד", image: "/images/passersby-dancers-actors/backstage-5.jpeg" },
       { title: "מיצג לילה", details: "2025, שמן על בד", image: "/images/passersby-dancers-actors/night-show-1.jpeg" },
       { title: "ארנב 1", details: "2025, שמן על בד", image: "/images/passersby-dancers-actors/rabbit-1.jpeg" },
-      { title: "ארנב 2", details: "2025, שמן על בד", image: "/images/passersby-dancers-actors/rabbit-2.jpeg" },
       { title: "שחקן 10", details: "שמן על בד, 70×63 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-10.jpeg" },
       { title: "שחקן 12", details: "שמן על בד, 75×70 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-12.jpeg" },
       { title: "שחקן 11", details: "שמן על בד, 75×60 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-a.jpeg" },

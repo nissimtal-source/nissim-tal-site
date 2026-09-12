@@ -1,6 +1,6 @@
 // Content extracted from nissimtal.com (Wix) — see CONTENT.md for full source notes.
 // Local images live in /public/images/<folder>/<file> — reference them as "/images/..." (no "public" prefix).
-// Remote Wix images are kept as fallback for works not yet re-photographed locally.
+// All images are self-hosted; none are hotlinked from Wix.
 
 export interface Work {
   title: string;
@@ -34,8 +34,7 @@ export const site: Site = {
   name: "Nissim Tal",
   tagline: "Waiting for the Rolling Stones, Düsseldorf, Germany, 2022, Oil on canvas, 200×100 cm",
   email: "nissimtal@gmail.com",
-  heroImage:
-    "https://static.wixstatic.com/media/6ac8cb_10ad041831b6418f948b5b6e8c48d8a9~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_10ad041831b6418f948b5b6e8c48d8a9~mv2.jpg",
+  heroImage: "/images/hero/hero.jpeg",
 };
 
 export const about: About = {
@@ -88,23 +87,23 @@ export const projects: ProjectSection[] = [
       'According to Sartre, "people differ in age and status, often do not talk to each other, they simply exist side by side in a multitude of solitudes. Loneliness from the group is by choice."',
     ],
     works: [
-      { title: "Street Performance 1", details: "Manifesta Palermo, 2023, Oil on canvas, 145×140 cm", image: "https://static.wixstatic.com/media/6ac8cb_5f38355fdb934f9cbf277c8b63f65a50~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_5f38355fdb934f9cbf277c8b63f65a50~mv2.jpg" },
-      { title: "Street Performance 2", details: "Manifesta Palermo, 2023, Oil on canvas, 145×140 cm", image: "https://static.wixstatic.com/media/6ac8cb_38a13144c67648cc8ede5d7ca2d5b558~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_38a13144c67648cc8ede5d7ca2d5b558~mv2.jpg" },
-      { title: "Waiting for Kusama", details: "New York, 2023, Oil on canvas, 160×65 cm", image: "https://static.wixstatic.com/media/6ac8cb_1e38e47c6a12428dab5df4c1554bbbfc~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_1e38e47c6a12428dab5df4c1554bbbfc~mv2.jpg" },
-      { title: "Waiting for Kusama 2", details: "New York, 2023, Oil on canvas, 63×242 cm", image: "https://static.wixstatic.com/media/6ac8cb_98cb89361dcd4aeca854cca886f9ebca~mv2.jpg/v1/fit/w_1920,h_941,q_90,enc_avif,quality_auto/6ac8cb_98cb89361dcd4aeca854cca886f9ebca~mv2.jpg" },
-      { title: "Highline", details: "New York, 2023, Oil on canvas, 160×85 cm", image: "https://static.wixstatic.com/media/6ac8cb_f608057618464846b03e6bf3cffc4977~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_f608057618464846b03e6bf3cffc4977~mv2.jpg" },
-      { title: "Visiting The MOMA", details: "New York, 2023, Oil on canvas, 95×148 cm", image: "https://static.wixstatic.com/media/6ac8cb_0c505c14acce48b3af7b26a0168515b3~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_0c505c14acce48b3af7b26a0168515b3~mv2.jpg" },
-      { title: "Time Square 1", details: "New York, 2023, Oil on canvas, 120×156 cm", image: "https://static.wixstatic.com/media/6ac8cb_1aa5615598c345a58f6f46914edb847a~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_1aa5615598c345a58f6f46914edb847a~mv2.jpg" },
-      { title: "Time Square 2", details: "New York, 2023, Oil on canvas, 146×112 cm", image: "https://static.wixstatic.com/media/6ac8cb_e4092df0c2dd49baa1db4319bb566760~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_e4092df0c2dd49baa1db4319bb566760~mv2.jpg" },
-      { title: "Immersing in the river", details: "Kassel, Germany, 2023, Oil on canvas, 183×140 cm", image: "https://static.wixstatic.com/media/6ac8cb_a6072930269e43afa0077a19aabab7fa~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_a6072930269e43afa0077a19aabab7fa~mv2.jpg" },
-      { title: "Expo", details: "Dubai, 2023, Oil on canvas, 230×90 cm", image: "https://static.wixstatic.com/media/6ac8cb_ea16a324706b4f8f854ec402fb950979~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_ea16a324706b4f8f854ec402fb950979~mv2.jpg" },
-      { title: "Waiting for the metro 1", details: "Heinrich Heine station, Düsseldorf, Germany, 2023, Oil on canvas, 190×64 cm", image: "https://static.wixstatic.com/media/6ac8cb_9aef37a615cf4bf68164fd6ce5aefc12~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_9aef37a615cf4bf68164fd6ce5aefc12~mv2.jpg" },
-      { title: "Waiting for Metro 2", details: "Heinrich Heine station, Düsseldorf, Germany, 2023, Oil on canvas, 160×64 cm", image: "https://static.wixstatic.com/media/6ac8cb_829b6c9851bd4dc580dbcb3c5fbcb076~mv2.jpg/v1/fit/w_1868,h_1051,q_90,enc_avif,quality_auto/6ac8cb_829b6c9851bd4dc580dbcb3c5fbcb076~mv2.jpg" },
-      { title: "Waiting for Metro 4", details: "Düsseldorf, Germany, 2023, Oil on canvas", image: "https://static.wixstatic.com/media/6ac8cb_66588e57c04c416e85c0dedeceef83be~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_66588e57c04c416e85c0dedeceef83be~mv2.jpg" },
-      { title: "Waiting for the Rolling Stones", details: "Düsseldorf, Germany, 2022, Oil on canvas, 200×100 cm", image: "https://static.wixstatic.com/media/6ac8cb_abdf01b7d4384b99a10acc335489571e~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_abdf01b7d4384b99a10acc335489571e~mv2.jpg" },
-      { title: "Israel Festival", details: "Jerusalem, 2023, Oil on canvas, 215×100 cm", image: "https://static.wixstatic.com/media/6ac8cb_77fd0956970d4670978ab1af24af5afe~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_77fd0956970d4670978ab1af24af5afe~mv2.jpg" },
-      { title: "Waiting for Brancusi exhibition", details: "Timișoara, Romania, 2024, Oil on canvas, 115×400 cm", image: "https://static.wixstatic.com/media/6ac8cb_1f2201f51fcc426982bdbc8a3a50fa9f~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_1f2201f51fcc426982bdbc8a3a50fa9f~mv2.jpg" },
-      { title: "Waiting for Metro 3", details: "Heinrich Heine station, Düsseldorf, Germany, 2023, Oil on canvas", image: "https://static.wixstatic.com/media/6ac8cb_a0792fd92fdc425e90ff7b565a460229~mv2.jpg/v1/fit/w_1920,h_975,q_90,enc_avif,quality_auto/6ac8cb_a0792fd92fdc425e90ff7b565a460229~mv2.jpg" },
+      { title: "Street Performance 1", details: "Manifesta Palermo, 2023, Oil on canvas, 145×140 cm", image: "/images/passersby/street-performance-1.jpeg" },
+      { title: "Street Performance 2", details: "Manifesta Palermo, 2023, Oil on canvas, 145×140 cm", image: "/images/passersby/street-performance-2.jpeg" },
+      { title: "Waiting for Kusama", details: "New York, 2023, Oil on canvas, 160×65 cm", image: "/images/passersby/waiting-for-kusama.jpeg" },
+      { title: "Waiting for Kusama 2", details: "New York, 2023, Oil on canvas, 63×242 cm", image: "/images/passersby/waiting-for-kusama-2.jpeg" },
+      { title: "Highline", details: "New York, 2023, Oil on canvas, 160×85 cm", image: "/images/passersby/highline.jpeg" },
+      { title: "Visiting The MOMA", details: "New York, 2023, Oil on canvas, 95×148 cm", image: "/images/passersby/visiting-the-moma.jpeg" },
+      { title: "Time Square 1", details: "New York, 2023, Oil on canvas, 120×156 cm", image: "/images/passersby/time-square-1.jpeg" },
+      { title: "Time Square 2", details: "New York, 2023, Oil on canvas, 146×112 cm", image: "/images/passersby/time-square-2.jpeg" },
+      { title: "Immersing in the river", details: "Kassel, Germany, 2023, Oil on canvas, 183×140 cm", image: "/images/passersby/immersing-in-the-river.jpeg" },
+      { title: "Expo", details: "Dubai, 2023, Oil on canvas, 230×90 cm", image: "/images/passersby/expo.jpeg" },
+      { title: "Waiting for the metro 1", details: "Heinrich Heine station, Düsseldorf, Germany, 2023, Oil on canvas, 190×64 cm", image: "/images/passersby/waiting-for-metro-1.jpeg" },
+      { title: "Waiting for Metro 2", details: "Heinrich Heine station, Düsseldorf, Germany, 2023, Oil on canvas, 160×64 cm", image: "/images/passersby/waiting-for-metro-2.jpeg" },
+      { title: "Waiting for Metro 4", details: "Düsseldorf, Germany, 2023, Oil on canvas", image: "/images/passersby/waiting-for-metro-4.jpeg" },
+      { title: "Waiting for the Rolling Stones", details: "Düsseldorf, Germany, 2022, Oil on canvas, 200×100 cm", image: "/images/passersby/waiting-for-the-rolling-stones.jpeg" },
+      { title: "Israel Festival", details: "Jerusalem, 2023, Oil on canvas, 215×100 cm", image: "/images/passersby/israel-festival.jpeg" },
+      { title: "Waiting for Brancusi exhibition", details: "Timișoara, Romania, 2024, Oil on canvas, 115×400 cm", image: "/images/passersby/waiting-for-brancusi-exhibition.jpeg" },
+      { title: "Waiting for Metro 3", details: "Heinrich Heine station, Düsseldorf, Germany, 2023, Oil on canvas", image: "/images/passersby/waiting-for-metro-3.jpeg" },
     ],
   },
   {
@@ -152,12 +151,12 @@ export const projects: ProjectSection[] = [
     title: "Dancers",
     meta: "2024 · Tel Aviv",
     works: [
-      { title: "Dancer 1", details: "Oil on canvas, 65×62 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_9cb644a070a84000a1c0786677bd7cae~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_9cb644a070a84000a1c0786677bd7cae~mv2.jpg" },
-      { title: "Dancer 2", details: "Oil on canvas, 100×60 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_c9597ee2a1ec4d05b37949cae2ff4c33~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_c9597ee2a1ec4d05b37949cae2ff4c33~mv2.jpg" },
-      { title: "Dancer 3", details: "Oil on canvas, 61×65 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_af5918aece2e43738176f6bce9853261~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_af5918aece2e43738176f6bce9853261~mv2.jpg" },
-      { title: "Dancer 4", details: "Oil on canvas, 50×66 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_78d9b224815b425cb8bde607c8aed695~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_78d9b224815b425cb8bde607c8aed695~mv2.jpg" },
-      { title: "Dancer and man with bottle", details: "Oil on canvas, 100×106 cm, 2024", image: "https://static.wixstatic.com/media/6ac8cb_e327c81245cb41a9854629eb882484c6~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_e327c81245cb41a9854629eb882484c6~mv2.jpg" },
-      { title: "Audience 1", details: "Oil on canvas, 2024", image: "https://static.wixstatic.com/media/6ac8cb_bf366575516446269857343ee7eb3689~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_bf366575516446269857343ee7eb3689~mv2.jpg" },
+      { title: "Dancer 1", details: "Oil on canvas, 65×62 cm, 2024", image: "/images/dancers/dancer-1.jpeg" },
+      { title: "Dancer 2", details: "Oil on canvas, 100×60 cm, 2024", image: "/images/dancers/dancer-2.jpeg" },
+      { title: "Dancer 3", details: "Oil on canvas, 61×65 cm, 2024", image: "/images/dancers/dancer-3.jpeg" },
+      { title: "Dancer 4", details: "Oil on canvas, 50×66 cm, 2024", image: "/images/dancers/dancer-4.jpeg" },
+      { title: "Dancer and man with bottle", details: "Oil on canvas, 100×106 cm, 2024", image: "/images/dancers/dancer-and-man-with-bottle.jpeg" },
+      { title: "Audience 1", details: "Oil on canvas, 2024", image: "/images/dancers/audience-1.jpeg" },
     ],
   },
   {
@@ -194,8 +193,8 @@ export const projects: ProjectSection[] = [
     title: "Performance",
     meta: "2025 · Tel Aviv",
     works: [
-      { title: "Performance 1", details: "Oil on canvas, 73×54 cm, 2025", image: "https://static.wixstatic.com/media/6ac8cb_509048495090498aa6d893c2c123dac5~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_509048495090498aa6d893c2c123dac5~mv2.jpg" },
-      { title: "Performance 2", details: "Oil on canvas, 65×70 cm, 2025", image: "https://static.wixstatic.com/media/6ac8cb_4b66da34d876443e9d79002fa61e6480~mv2.jpg/v1/fit/w_1920,h_1081,q_90,enc_avif,quality_auto/6ac8cb_4b66da34d876443e9d79002fa61e6480~mv2.jpg" },
+      { title: "Performance 1", details: "Oil on canvas, 73×54 cm, 2025", image: "/images/performance/performance-1.jpeg" },
+      { title: "Performance 2", details: "Oil on canvas, 65×70 cm, 2025", image: "/images/performance/performance-2.jpeg" },
     ],
   },
 ];

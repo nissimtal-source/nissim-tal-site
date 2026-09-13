@@ -70,7 +70,16 @@ export const soloExhibitions: ProjectSection[] = [
       "\"People differ from one another in age and status, and mostly do not speak with one another. They simply exist alongside each other in a multiplicity of solitudes,\" wrote Jean-Paul Sartre.",
       "Unlike photographs, paintings have brushstrokes, and the colorful stains become figures or items to be beheld by the gaze of an attentive viewer. Broad, flowing brushstrokes in parts of the background give the paintings their free spirit.",
     ],
-    works: [],
+    works: [
+      { title: "Waiting for the Rolling Stones", details: "Düsseldorf, Germany, 2022, Oil on canvas, 200×100 cm", image: "/images/passersby/waiting-for-the-rolling-stones.jpeg" },
+      { title: "Waiting for the metro 1", details: "Heinrich Heine station, Düsseldorf, Germany, 2023, Oil on canvas, 190×64 cm", image: "/images/passersby/waiting-for-metro-1.jpeg" },
+      { title: "Waiting for Metro 2", details: "Heinrich Heine station, Düsseldorf, Germany, 2023, Oil on canvas, 160×64 cm", image: "/images/passersby/waiting-for-metro-2.jpeg" },
+      { title: "Immersing in the river", details: "Kassel, Germany, 2023, Oil on canvas, 183×140 cm", image: "/images/passersby/immersing-in-the-river.jpeg" },
+      { title: "Highline", details: "New York, 2023, Oil on canvas, 160×85 cm", image: "/images/passersby/highline.jpeg" },
+      { title: "Expo", details: "Dubai, 2023, Oil on canvas, 230×90 cm", image: "/images/passersby/expo.jpeg" },
+      { title: "Street Performance 2", details: "Manifesta Palermo, 2023, Oil on canvas, 145×140 cm", image: "/images/passersby/street-performance-2.jpeg" },
+      { title: "Israel Festival", details: "Jerusalem, 2023, Oil on canvas, 215×100 cm", image: "/images/passersby/israel-festival.jpeg" },
+    ],
   },
 ];
 

@@ -262,6 +262,18 @@ const ogLocale = lang === "he" ? "he_IL" : "en_US";
   .statement{ color:var(--muted); max-width:760px; margin-bottom:36px; font-size:1rem; }
   .statement p{ margin:0 0 16px; }
   .gallery{ display:grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap:28px; }
+  .series-index{ list-style:none; margin:0; padding:0; max-width:560px; }
+  .series-index li{ border-bottom:1px solid var(--line); }
+  .series-index li:first-child{ border-top:1px solid var(--line); }
+  .series-index a{
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+    padding:22px 4px; color:var(--text); text-decoration:none; font-size:1.2rem;
+  }
+  .series-index a::after{ content:"\2192"; color:var(--accent); font-size:1rem; transition:transform 0.15s ease; }
+  html[dir="rtl"] .series-index a::after{ content:"\2190"; }
+  .series-index a:hover{ color:var(--accent); }
+  .series-index a:hover::after{ transform:translateX(4px); }
+  html[dir="rtl"] .series-index a:hover::after{ transform:translateX(-4px); }
   figure{ margin:0; }
   figure img{
     width:100%; height:320px; object-fit:cover; display:block;

@@ -16,15 +16,24 @@ const { project } = Astro.props;
       {project.statement.map((p) => <p set:html={p} />)}
     </div>
   )}
-  <div class="gallery">
-    {project.works.map((w) => (
-      <figure>
-        <img src={w.image} alt={w.alt ?? w.title} loading="lazy" />
-        <figcaption>
-          <span class="title">{w.title}</span>
-          {w.details}
-        </figcaption>
-      </figure>
-    ))}
-  </div>
+  {project.seriesLinks && (
+    <ul class="series-index">
+      {project.seriesLinks.map((l) => (
+        <li><a href={l.href}>{l.label}</a></li>
+      ))}
+    </ul>
+  )}
+  {project.works.length > 0 && (
+    <div class="gallery">
+      {project.works.map((w) => (
+        <figure>
+          <img src={w.image} alt={w.alt ?? w.title} loading="lazy" />
+          <figcaption>
+            <span class="title">{w.title}</span>
+            {w.details}
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  )}
 </section>

@@ -9,6 +9,11 @@ export interface Work {
   alt?: string;
 }
 
+export interface SeriesLink {
+  label: string;
+  href: string;
+}
+
 export interface ProjectSection {
   id: string;
   title: string;
@@ -16,6 +21,7 @@ export interface ProjectSection {
   meta?: string;
   statement?: string[];
   works: Work[];
+  seriesLinks?: SeriesLink[];
 }
 
 export interface Site {
@@ -57,6 +63,11 @@ export const soloExhibitions: ProjectSection[] = [
       "The exhibition also delves into the dialogue between the audience, actors, and dancers, documenting the shared energy and reactions between them. Developed largely during my artist residency with the Düsseldorf Municipality in Germany, this body of work serves as a visual diary of time, place, and the anonymous crowds that define city life.",
     ],
     works: [],
+    seriesLinks: [
+      { label: "Passersby", href: "#solo-exhibition-artists-house" },
+      { label: "Dancers", href: "#passersby-dancers-actors" },
+      { label: "Performance in the Park", href: "#park-performance" },
+    ],
   },
   {
     id: "solo-exhibition-artists-house",

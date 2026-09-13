@@ -17,11 +17,14 @@ const { project } = Astro.props;
     </div>
   )}
   {project.seriesLinks && (
-    <ul class="series-index">
-      {project.seriesLinks.map((l) => (
-        <li><a href={l.href}>{l.label}</a></li>
-      ))}
-    </ul>
+    <>
+      {project.seriesLinksLabel && <p class="series-index-label">{project.seriesLinksLabel}</p>}
+      <ul class="series-index">
+        {project.seriesLinks.map((l) => (
+          <li><a href={l.href}>{l.label}</a></li>
+        ))}
+      </ul>
+    </>
   )}
   {project.works.length > 0 && (
     <div class="gallery">

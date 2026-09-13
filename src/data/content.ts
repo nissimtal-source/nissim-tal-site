@@ -22,6 +22,7 @@ export interface ProjectSection {
   statement?: string[];
   works: Work[];
   seriesLinks?: SeriesLink[];
+  seriesLinksLabel?: string;
 }
 
 export interface Site {
@@ -63,6 +64,7 @@ export const soloExhibitions: ProjectSection[] = [
       "The exhibition also delves into the dialogue between the audience, actors, and dancers, documenting the shared energy and reactions between them. Developed largely during my artist residency with the Düsseldorf Municipality in Germany, this body of work serves as a visual diary of time, place, and the anonymous crowds that define city life.",
     ],
     works: [],
+    seriesLinksLabel: "The exhibition content",
     seriesLinks: [
       { label: "Passersby", href: "#solo-exhibition-artists-house" },
       { label: "Dancers", href: "#passersby-dancers-actors" },

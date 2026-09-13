@@ -30,6 +30,7 @@ export const soloExhibitions: ProjectSection[] = [
       "התערוכה מעמיקה גם בדיאלוג שבין הקהל לשחקנים ולרקדנים, ומתעדת את האנרגיה והתגובות המשותפות שביניהם. גוף עבודות זה, שפותח בחלקו הגדול במהלך שהותי ברזידנסי מטעם עיריית דיסלדורף בגרמניה, משמש כיומן חזותי של זמן, מקום והמונים אנונימיים המגדירים את החיים העירוניים.",
     ],
     works: [],
+    seriesLinksLabel: "תוכן התערוכה",
     seriesLinks: [
       { label: "קהל מזדמן", href: "#solo-exhibition-artists-house" },
       { label: "רקדניות", href: "#passersby-dancers-actors" },

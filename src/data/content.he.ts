@@ -33,7 +33,7 @@ export const soloExhibitions: ProjectSection[] = [
     seriesLinksLabel: "תוכן התערוכה",
     seriesLinks: [
       { label: "קהל מזדמן", href: "#solo-exhibition-artists-house" },
-      { label: "רקדניות", href: "#passersby-dancers-actors" },
+      { label: "רקדניות", href: "#dancers" },
       { label: "מופע בפארק", href: "#park-performance" },
     ],
   },

@@ -67,7 +67,7 @@ export const soloExhibitions: ProjectSection[] = [
     seriesLinksLabel: "The exhibition content",
     seriesLinks: [
       { label: "Passersby", href: "#solo-exhibition-artists-house" },
-      { label: "Dancers", href: "#passersby-dancers-actors" },
+      { label: "Dancers", href: "#dancers" },
       { label: "Performance in the Park", href: "#park-performance" },
     ],
   },

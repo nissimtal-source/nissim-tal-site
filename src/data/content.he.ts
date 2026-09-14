@@ -92,6 +92,31 @@ export const projects: ProjectSection[] = [
     ],
   },
   {
+    id: "park-performance",
+    title: "מופע בפארק",
+    meta: "תערוכה: מוזיאון העיר דיסלדורף, גרמניה — 3 בפברואר 2026",
+    works: [
+      { title: "שחקנית", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-1.jpeg" },
+      { title: "שחקנית", details: "צילום, 45×40 ס״מ, 2025", image: "/images/park-performance/actress-2.jpeg" },
+      { title: "שחקנית וקהל", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-with-audience-1.jpeg" },
+      { title: "שחקנית וקהל", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-with-audience-2.jpeg" },
+      { title: "שחקנית וקהל", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-with-audience-3.jpeg" },
+    ],
+  },
+  {
+    id: "dancers",
+    title: "רקדניות",
+    meta: "2024 · תל אביב",
+    works: [
+      { title: "רקדנית 1", details: "שמן על בד, 65×62 ס״מ, 2024", image: "/images/dancers/dancer-1.jpeg" },
+      { title: "רקדנית 2", details: "שמן על בד, 100×60 ס״מ, 2024", image: "/images/dancers/dancer-2.jpeg" },
+      { title: "רקדנית 3", details: "שמן על בד, 61×65 ס״מ, 2024", image: "/images/dancers/dancer-3.jpeg" },
+      { title: "רקדנית 4", details: "שמן על בד, 50×66 ס״מ, 2024", image: "/images/dancers/dancer-4.jpeg" },
+      { title: "רקדנית ואיש עם בקבוק", details: "שמן על בד, 100×106 ס״מ, 2024", image: "/images/dancers/dancer-and-man-with-bottle.jpeg" },
+      { title: "קהל 1", details: "שמן על בד, 2024", image: "/images/dancers/audience-1.jpeg" },
+    ],
+  },
+  {
     id: "passersby-dancers-actors",
     title: "רקדניות ושחקנים",
     meta: "תערוכה: מוזיאון העיר דיסלדורף, גרמניה — 3 בפברואר 2026",
@@ -117,31 +142,6 @@ export const projects: ProjectSection[] = [
       { title: "שחקן 11", details: "שמן על בד, 75×60 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-e.jpeg" },
       { title: "שחקן 11", details: "שמן על בד, 70×69 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-f.jpeg" },
       { title: "שחקן 11", details: "שמן על בד, 72×65 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-g.jpeg" },
-    ],
-  },
-  {
-    id: "park-performance",
-    title: "מופע בפארק",
-    meta: "תערוכה: מוזיאון העיר דיסלדורף, גרמניה — 3 בפברואר 2026",
-    works: [
-      { title: "שחקנית", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-1.jpeg" },
-      { title: "שחקנית", details: "צילום, 45×40 ס״מ, 2025", image: "/images/park-performance/actress-2.jpeg" },
-      { title: "שחקנית וקהל", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-with-audience-1.jpeg" },
-      { title: "שחקנית וקהל", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-with-audience-2.jpeg" },
-      { title: "שחקנית וקהל", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-with-audience-3.jpeg" },
-    ],
-  },
-  {
-    id: "dancers",
-    title: "רקדניות",
-    meta: "2024 · תל אביב",
-    works: [
-      { title: "רקדנית 1", details: "שמן על בד, 65×62 ס״מ, 2024", image: "/images/dancers/dancer-1.jpeg" },
-      { title: "רקדנית 2", details: "שמן על בד, 100×60 ס״מ, 2024", image: "/images/dancers/dancer-2.jpeg" },
-      { title: "רקדנית 3", details: "שמן על בד, 61×65 ס״מ, 2024", image: "/images/dancers/dancer-3.jpeg" },
-      { title: "רקדנית 4", details: "שמן על בד, 50×66 ס״מ, 2024", image: "/images/dancers/dancer-4.jpeg" },
-      { title: "רקדנית ואיש עם בקבוק", details: "שמן על בד, 100×106 ס״מ, 2024", image: "/images/dancers/dancer-and-man-with-bottle.jpeg" },
-      { title: "קהל 1", details: "שמן על בד, 2024", image: "/images/dancers/audience-1.jpeg" },
     ],
   },
   {

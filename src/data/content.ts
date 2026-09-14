@@ -129,6 +129,31 @@ export const projects: ProjectSection[] = [
     ],
   },
   {
+    id: "park-performance",
+    title: "Performance in the Park",
+    meta: "Exhibition: City Museum of Düsseldorf, Germany — 3 February 2026",
+    works: [
+      { title: "Actress", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-1.jpeg" },
+      { title: "Actress", details: "Photograph, 45×40 cm, 2025", image: "/images/park-performance/actress-2.jpeg" },
+      { title: "Actress with audience", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-with-audience-1.jpeg" },
+      { title: "Actress with audience", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-with-audience-2.jpeg" },
+      { title: "Actress with audience", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-with-audience-3.jpeg" },
+    ],
+  },
+  {
+    id: "dancers",
+    title: "Dancers",
+    meta: "2024 · Tel Aviv",
+    works: [
+      { title: "Dancer 1", details: "Oil on canvas, 65×62 cm, 2024", image: "/images/dancers/dancer-1.jpeg" },
+      { title: "Dancer 2", details: "Oil on canvas, 100×60 cm, 2024", image: "/images/dancers/dancer-2.jpeg" },
+      { title: "Dancer 3", details: "Oil on canvas, 61×65 cm, 2024", image: "/images/dancers/dancer-3.jpeg" },
+      { title: "Dancer 4", details: "Oil on canvas, 50×66 cm, 2024", image: "/images/dancers/dancer-4.jpeg" },
+      { title: "Dancer and man with bottle", details: "Oil on canvas, 100×106 cm, 2024", image: "/images/dancers/dancer-and-man-with-bottle.jpeg" },
+      { title: "Audience 1", details: "Oil on canvas, 2024", image: "/images/dancers/audience-1.jpeg" },
+    ],
+  },
+  {
     id: "passersby-dancers-actors",
     title: "Dancers and Actors",
     meta: "Exhibition: City Museum of Düsseldorf, Germany — 3 February 2026",
@@ -154,31 +179,6 @@ export const projects: ProjectSection[] = [
       { title: "Actor 11", details: "Oil on canvas, 75×60 cm, 2025", image: "/images/passersby-dancers-actors/actor-11-e.jpeg" },
       { title: "Actor 11", details: "Oil on canvas, 70×69 cm, 2025", image: "/images/passersby-dancers-actors/actor-11-f.jpeg" },
       { title: "Actor 11", details: "Oil on canvas, 72×65 cm, 2025", image: "/images/passersby-dancers-actors/actor-11-g.jpeg" },
-    ],
-  },
-  {
-    id: "park-performance",
-    title: "Performance in the Park",
-    meta: "Exhibition: City Museum of Düsseldorf, Germany — 3 February 2026",
-    works: [
-      { title: "Actress", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-1.jpeg" },
-      { title: "Actress", details: "Photograph, 45×40 cm, 2025", image: "/images/park-performance/actress-2.jpeg" },
-      { title: "Actress with audience", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-with-audience-1.jpeg" },
-      { title: "Actress with audience", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-with-audience-2.jpeg" },
-      { title: "Actress with audience", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-with-audience-3.jpeg" },
-    ],
-  },
-  {
-    id: "dancers",
-    title: "Dancers",
-    meta: "2024 · Tel Aviv",
-    works: [
-      { title: "Dancer 1", details: "Oil on canvas, 65×62 cm, 2024", image: "/images/dancers/dancer-1.jpeg" },
-      { title: "Dancer 2", details: "Oil on canvas, 100×60 cm, 2024", image: "/images/dancers/dancer-2.jpeg" },
-      { title: "Dancer 3", details: "Oil on canvas, 61×65 cm, 2024", image: "/images/dancers/dancer-3.jpeg" },
-      { title: "Dancer 4", details: "Oil on canvas, 50×66 cm, 2024", image: "/images/dancers/dancer-4.jpeg" },
-      { title: "Dancer and man with bottle", details: "Oil on canvas, 100×106 cm, 2024", image: "/images/dancers/dancer-and-man-with-bottle.jpeg" },
-      { title: "Audience 1", details: "Oil on canvas, 2024", image: "/images/dancers/audience-1.jpeg" },
     ],
   },
   {

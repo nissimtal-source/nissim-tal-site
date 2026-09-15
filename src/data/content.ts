@@ -168,7 +168,6 @@ export const projects: ProjectSection[] = [
       { title: "Backstage 3", details: "2025, Oil on canvas", image: "/images/passersby-dancers-actors/backstage-3.jpeg" },
       { title: "Backstage 4", details: "2025, Oil on canvas", image: "/images/passersby-dancers-actors/backstage-4.jpeg" },
       { title: "Backstage 5", details: "2025, Oil on canvas", image: "/images/passersby-dancers-actors/backstage-5.jpeg" },
-      { title: "Night Show", details: "2025, Oil on canvas", image: "/images/passersby-dancers-actors/night-show-1.jpeg" },
       { title: "Rabbit 1", details: "2025, Oil on canvas", image: "/images/passersby-dancers-actors/rabbit-1.jpeg" },
       { title: "Actor 10", details: "Oil on canvas, 70×63 cm, 2025", image: "/images/passersby-dancers-actors/actor-10.jpeg" },
       { title: "Actor 12", details: "Oil on canvas, 75×70 cm, 2025", image: "/images/passersby-dancers-actors/actor-12.jpeg" },
@@ -217,6 +216,7 @@ export const projects: ProjectSection[] = [
     works: [
       { title: "Performance 1", details: "Oil on canvas, 73×54 cm, 2025", image: "/images/performance/performance-1.jpeg" },
       { title: "Performance 2", details: "Oil on canvas, 65×70 cm, 2025", image: "/images/performance/performance-2.jpeg" },
+      { title: "Performance 3", details: "2025, Oil on canvas", image: "/images/performance/performance-3.jpeg" },
     ],
   },
 ];

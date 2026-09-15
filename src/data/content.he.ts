@@ -131,7 +131,6 @@ export const projects: ProjectSection[] = [
       { title: "מאחורי הקלעים 3", details: "2025, שמן על בד", image: "/images/passersby-dancers-actors/backstage-3.jpeg" },
       { title: "מאחורי הקלעים 4", details: "2025, שמן על בד", image: "/images/passersby-dancers-actors/backstage-4.jpeg" },
       { title: "מאחורי הקלעים 5", details: "2025, שמן על בד", image: "/images/passersby-dancers-actors/backstage-5.jpeg" },
-      { title: "מיצג לילה", details: "2025, שמן על בד", image: "/images/passersby-dancers-actors/night-show-1.jpeg" },
       { title: "ארנב 1", details: "2025, שמן על בד", image: "/images/passersby-dancers-actors/rabbit-1.jpeg" },
       { title: "שחקן 10", details: "שמן על בד, 70×63 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-10.jpeg" },
       { title: "שחקן 12", details: "שמן על בד, 75×70 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-12.jpeg" },
@@ -159,7 +158,7 @@ export const projects: ProjectSection[] = [
   },
   {
     id: "belly-dancer",
-    title: "רקוד בטן",
+    title: "ריקוד בטן",
     meta: "2025 · תל אביב",
     works: [
       { title: "רקדנית 1", details: "שמן על בד, 50×70 ס״מ, 2025", image: "/images/belly-dancer/belly-dancer-1.jpeg" },
@@ -180,6 +179,7 @@ export const projects: ProjectSection[] = [
     works: [
       { title: "מופע 1", details: "שמן על בד, 73×54 ס״מ, 2025", image: "/images/performance/performance-1.jpeg" },
       { title: "מופע 2", details: "שמן על בד, 65×70 ס״מ, 2025", image: "/images/performance/performance-2.jpeg" },
+      { title: "מופע 3", details: "2025, שמן על בד", image: "/images/performance/performance-3.jpeg" },
     ],
   },
 ];

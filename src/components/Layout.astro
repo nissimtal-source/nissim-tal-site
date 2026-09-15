@@ -98,6 +98,18 @@ const ogLocale = lang === "he" ? "he_IL" : "en_US";
   </div>
 
   <script>
+    const header = document.querySelector("header");
+    function setHeaderHeight() {
+      if (header instanceof HTMLElement) {
+        document.documentElement.style.setProperty("--header-h", `${header.offsetHeight}px`);
+      }
+    }
+    setHeaderHeight();
+    window.addEventListener("resize", setHeaderHeight);
+    if (header && "ResizeObserver" in window) {
+      new ResizeObserver(setHeaderHeight).observe(header);
+    }
+
     const dropdown = document.querySelector(".dropdown");
     const dropdownTrigger = document.querySelector(".dropdown-trigger");
 
@@ -201,9 +213,10 @@ const ogLocale = lang === "he" ? "he_IL" : "en_US";
     --accent:#a97a1f;
     --line:#e2ddd0;
     --maxw:1180px;
+    --header-h:90px;
   }
   *{box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
+  html{scroll-behavior:smooth; scroll-padding-top:var(--header-h);}
   body{
     margin:0;
     background:var(--bg);

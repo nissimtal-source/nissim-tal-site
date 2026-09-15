@@ -12,6 +12,7 @@ export interface Work {
 export interface SeriesLink {
   label: string;
   href: string;
+  image?: string;
 }
 
 export interface ProjectSection {
@@ -66,9 +67,9 @@ export const soloExhibitions: ProjectSection[] = [
     works: [],
     seriesLinksLabel: "The exhibition content",
     seriesLinks: [
-      { label: "Passersby", href: "#solo-exhibition-artists-house" },
-      { label: "Dancers", href: "#dancers" },
-      { label: "Performance in the Park", href: "#park-performance" },
+      { label: "Passersby", href: "#solo-exhibition-artists-house", image: "/images/passersby/waiting-for-the-rolling-stones.jpeg" },
+      { label: "Dancers", href: "#dancers", image: "/images/dancers/dancer-1.jpeg" },
+      { label: "Performance in the Park", href: "#park-performance", image: "/images/park-performance/actress-1.jpeg" },
     ],
   },
   {

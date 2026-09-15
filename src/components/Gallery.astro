@@ -21,7 +21,14 @@ const { project } = Astro.props;
       {project.seriesLinksLabel && <p class="series-index-label">{project.seriesLinksLabel}</p>}
       <ul class="series-index">
         {project.seriesLinks.map((l) => (
-          <li><a href={l.href}>{l.label}</a></li>
+          <li>
+            <a href={l.href}>
+              <span class="series-index-main">
+                {l.image && <img src={l.image} alt="" class="series-index-thumb" loading="lazy" />}
+                <span class="series-index-label-text">{l.label}</span>
+              </span>
+            </a>
+          </li>
         ))}
       </ul>
     </>

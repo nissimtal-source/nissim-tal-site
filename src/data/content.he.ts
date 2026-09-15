@@ -32,9 +32,9 @@ export const soloExhibitions: ProjectSection[] = [
     works: [],
     seriesLinksLabel: "תוכן התערוכה",
     seriesLinks: [
-      { label: "קהל מזדמן", href: "#solo-exhibition-artists-house" },
-      { label: "רקדניות", href: "#dancers" },
-      { label: "מופע בפארק", href: "#park-performance" },
+      { label: "קהל מזדמן", href: "#solo-exhibition-artists-house", image: "/images/passersby/waiting-for-the-rolling-stones.jpeg" },
+      { label: "רקדניות", href: "#dancers", image: "/images/dancers/dancer-1.jpeg" },
+      { label: "מופע בפארק", href: "#park-performance", image: "/images/park-performance/actress-1.jpeg" },
     ],
   },
   {

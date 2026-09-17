@@ -93,6 +93,7 @@ export const soloExhibitions: ProjectSection[] = [
       { title: "Expo", details: "Dubai, 2023, Oil on canvas, 230×90 cm", image: "/images/passersby/expo.jpeg" },
       { title: "Street Performance 2", details: "Manifesta Palermo, 2023, Oil on canvas, 145×140 cm", image: "/images/passersby/street-performance-2.jpeg" },
       { title: "Israel Festival", details: "Jerusalem, 2023, Oil on canvas, 215×100 cm", image: "/images/passersby/israel-festival.jpeg" },
+      { title: "Documentation of the Exhibition Passersby", details: "Artist House, Tel Aviv, Winter 2023", image: "/images/passersby/exhibition-documentation.jpeg" },
     ],
   },
 ];

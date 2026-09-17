@@ -56,6 +56,7 @@ export const soloExhibitions: ProjectSection[] = [
       { title: "אקספו", details: "דובאי, 2023, שמן על בד, 230×90 ס״מ", image: "/images/passersby/expo.jpeg" },
       { title: "מיצג רחוב 2", details: "מנייפסטה פאלרמו, 2023, שמן על בד, 145×140 ס״מ", image: "/images/passersby/street-performance-2.jpeg" },
       { title: "פסטיבל ישראל", details: "ירושלים, 2023, שמן על בד, 215×100 ס״מ", image: "/images/passersby/israel-festival.jpeg" },
+      { title: 'תיעוד התערוכה "קהל מזדמן"', details: "בית האמנים תל אביב, חורף 2023", image: "/images/passersby/exhibition-documentation.jpeg" },
     ],
   },
 ];

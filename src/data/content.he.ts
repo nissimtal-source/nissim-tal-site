@@ -29,7 +29,9 @@ export const soloExhibitions: ProjectSection[] = [
       "בין אם מדובר בתיעוד קבוצה חולפת של נוסעים בתחנת הרכבת או בקהל המשתתף באירוע תחת כיפת השמיים, הציורים והתצלומים מציגים אנשים אלה כפי שז'אן-פול סארטר ראה בהם – כמין שכפולים של הפרט, המאפשרים לכל אחד להתקיים כישות נפרדת ולכולם יחד כקבוצה קולקטיבית. הפרטים מוצגים באופן אקראי ומונוטוני, ללא ייחודיות מובחנת וכשהם נראים דומים זה לזה, בחירה ההופכת את היומיומי הרגיל למשהו מרתק ומושך.",
       "התערוכה מעמיקה גם בדיאלוג שבין הקהל לשחקנים ולרקדנים, ומתעדת את האנרגיה והתגובות המשותפות שביניהם. גוף עבודות זה, שפותח בחלקו הגדול במהלך שהותי ברזידנסי מטעם עיריית דיסלדורף בגרמניה, משמש כיומן חזותי של זמן, מקום והמונים אנונימיים המגדירים את החיים העירוניים.",
     ],
-    works: [],
+    works: [
+      { title: 'תיעוד התערוכה "קהל מזדמן, רקדנים ושחקנים"', details: "מוזיאון העיר דיסלדורף, 3 בפברואר 2026", image: "/images/passersby-dancers-actors/exhibition-documentation.jpeg" },
+    ],
     seriesLinksLabel: "תוכן התערוכה",
     seriesLinks: [
       { label: "קהל מזדמן", href: "#solo-exhibition-artists-house", image: "/images/passersby/waiting-for-the-rolling-stones.jpeg" },
@@ -146,7 +148,6 @@ export const projects: ProjectSection[] = [
       { title: "שחקן 11", details: "שמן על בד, 75×60 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-e.jpeg" },
       { title: "שחקן 11", details: "שמן על בד, 70×69 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-f.jpeg" },
       { title: "שחקן 11", details: "שמן על בד, 72×65 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-g.jpeg" },
-      { title: 'תיעוד התערוכה "קהל מזדמן, רקדנים ושחקנים"', details: "מוזיאון העיר דיסלדורף, 3 בפברואר 2026", image: "/images/passersby-dancers-actors/exhibition-documentation.jpeg" },
     ],
   },
   {

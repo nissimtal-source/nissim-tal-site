@@ -34,7 +34,7 @@ export const soloExhibitions: ProjectSection[] = [
     seriesLinks: [
       { label: "קהל מזדמן", href: "#solo-exhibition-artists-house", image: "/images/passersby/waiting-for-the-rolling-stones.jpeg" },
       { label: "רקדניות", href: "#dancers", image: "/images/dancers/dancer-1.jpeg" },
-      { label: "מופע בפארק", href: "#park-performance", image: "/images/park-performance/actress-1.jpeg" },
+      { label: "מופע בפארק", href: "#park-performance", image: "/images/park-performance/performer-pedestal.jpeg" },
     ],
   },
   {
@@ -97,11 +97,13 @@ export const projects: ProjectSection[] = [
     title: "מופע בפארק",
     meta: "תערוכה: מוזיאון העיר דיסלדורף, גרמניה — 3 בפברואר 2026",
     works: [
-      { title: "שחקנית", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-1.jpeg" },
-      { title: "שחקנית", details: "צילום, 45×40 ס״מ, 2025", image: "/images/park-performance/actress-2.jpeg" },
-      { title: "שחקנית וקהל", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-with-audience-1.jpeg" },
-      { title: "שחקנית וקהל", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-with-audience-2.jpeg" },
-      { title: "שחקנית וקהל", details: "צילום, 88×40 ס״מ, 2025", image: "/images/park-performance/actress-with-audience-3.jpeg" },
+      { title: "מופיעה על העמוד", details: "צילום, דיסלדורף, 2026", image: "/images/park-performance/performer-pedestal.jpeg" },
+      { title: "קהל בפארק", details: "צילום, דיסלדורף, 2026", image: "/images/park-performance/park-crowd.jpeg" },
+      { title: "מופיעה, פורטרט", details: "צילום, דיסלדורף, 2026", image: "/images/park-performance/performer-portrait.jpeg" },
+      { title: "מופיעות בתנועה", details: "צילום, דיסלדורף, 2026", image: "/images/park-performance/performers-duo-1.jpeg" },
+      { title: "מופיעים", details: "צילום, דיסלדורף, 2026", image: "/images/park-performance/performers-duo-2.jpeg" },
+      { title: "מופיעה", details: "צילום, דיסלדורף, 2026", image: "/images/park-performance/performer-blue-hair.jpeg" },
+      { title: "מופיעה בתנועה", details: "צילום, דיסלדורף, 2026", image: "/images/park-performance/performer-orange-hair.jpeg" },
     ],
   },
   {

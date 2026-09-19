@@ -69,7 +69,7 @@ export const soloExhibitions: ProjectSection[] = [
     seriesLinks: [
       { label: "Passersby", href: "#solo-exhibition-artists-house", image: "/images/passersby/waiting-for-the-rolling-stones.jpeg" },
       { label: "Dancers", href: "#dancers", image: "/images/dancers/dancer-1.jpeg" },
-      { label: "Performance in the Park", href: "#park-performance", image: "/images/park-performance/actress-1.jpeg" },
+      { label: "Performance in the Park", href: "#park-performance", image: "/images/park-performance/performer-pedestal.jpeg" },
     ],
   },
   {
@@ -135,11 +135,13 @@ export const projects: ProjectSection[] = [
     title: "Performance in the Park",
     meta: "Exhibition: City Museum of Düsseldorf, Germany — 3 February 2026",
     works: [
-      { title: "Actress", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-1.jpeg" },
-      { title: "Actress", details: "Photograph, 45×40 cm, 2025", image: "/images/park-performance/actress-2.jpeg" },
-      { title: "Actress with audience", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-with-audience-1.jpeg" },
-      { title: "Actress with audience", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-with-audience-2.jpeg" },
-      { title: "Actress with audience", details: "Photograph, 88×40 cm, 2025", image: "/images/park-performance/actress-with-audience-3.jpeg" },
+      { title: "Performer on the Pedestal", details: "Photograph, Düsseldorf, 2026", image: "/images/park-performance/performer-pedestal.jpeg" },
+      { title: "Audience in the Park", details: "Photograph, Düsseldorf, 2026", image: "/images/park-performance/park-crowd.jpeg" },
+      { title: "Performer, Portrait", details: "Photograph, Düsseldorf, 2026", image: "/images/park-performance/performer-portrait.jpeg" },
+      { title: "Performers in Motion", details: "Photograph, Düsseldorf, 2026", image: "/images/park-performance/performers-duo-1.jpeg" },
+      { title: "Performers", details: "Photograph, Düsseldorf, 2026", image: "/images/park-performance/performers-duo-2.jpeg" },
+      { title: "Performer", details: "Photograph, Düsseldorf, 2026", image: "/images/park-performance/performer-blue-hair.jpeg" },
+      { title: "Performer in Motion", details: "Photograph, Düsseldorf, 2026", image: "/images/park-performance/performer-orange-hair.jpeg" },
     ],
   },
   {

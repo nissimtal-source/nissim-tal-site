@@ -182,6 +182,7 @@ export const projects: ProjectSection[] = [
       { title: "Actor 11", details: "Oil on canvas, 75×60 cm, 2025", image: "/images/passersby-dancers-actors/actor-11-e.jpeg" },
       { title: "Actor 11", details: "Oil on canvas, 70×69 cm, 2025", image: "/images/passersby-dancers-actors/actor-11-f.jpeg" },
       { title: "Actor 11", details: "Oil on canvas, 72×65 cm, 2025", image: "/images/passersby-dancers-actors/actor-11-g.jpeg" },
+      { title: "Documentation of the Exhibition Passersby, Dancers, and Actors", details: "Stadtmuseum Düsseldorf, February 3, 2026", image: "/images/passersby-dancers-actors/exhibition-documentation.jpeg" },
     ],
   },
   {

@@ -144,6 +144,7 @@ export const projects: ProjectSection[] = [
       { title: "שחקן 11", details: "שמן על בד, 75×60 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-e.jpeg" },
       { title: "שחקן 11", details: "שמן על בד, 70×69 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-f.jpeg" },
       { title: "שחקן 11", details: "שמן על בד, 72×65 ס״מ, 2025", image: "/images/passersby-dancers-actors/actor-11-g.jpeg" },
+      { title: 'תיעוד התערוכה "קהל מזדמן, רקדנים ושחקנים"', details: "מוזיאון העיר דיסלדורף, 3 בפברואר 2026", image: "/images/passersby-dancers-actors/exhibition-documentation.jpeg" },
     ],
   },
   {
